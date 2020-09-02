@@ -24,6 +24,7 @@ public class LandingPage {
 		// TODO Auto-generated constructor stub
 		
 		this.driver=driver;
+		System.out.println("in landing page");
 		
 	}
 
