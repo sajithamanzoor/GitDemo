@@ -25,6 +25,7 @@ public class LandingPage {
 		
 		this.driver=driver;
 		System.out.println("in landing page");
+		System.out.println("in landing page");
 		
 	}
 
