@@ -34,7 +34,7 @@ public class LandingPage {
 
 	public WebElement getLogin()
 	{
-		System.out.println("in landing page");
+	
 		return driver.findElement(signin);
 		
 	}
