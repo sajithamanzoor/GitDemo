@@ -34,12 +34,18 @@ public class LandingPage {
 
 	public WebElement getLogin()
 	{
+<<<<<<< HEAD
 	
+=======
+		System.out.println("in getLogin page");
+		System.out.println("in landing page");
+>>>>>>> 37d65547a8ca65e228aa9f039cf7d53e5aa24973
 		return driver.findElement(signin);
 		
 	}
 	public WebElement getNavigationBar()
 	{
+		System.out.println("in getNavigationBar page");
 		return driver.findElement(NavBar);
 	}
 	public int getPopUpSize()
