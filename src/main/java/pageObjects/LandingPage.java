@@ -41,6 +41,7 @@ public class LandingPage {
 	}
 	public WebElement getNavigationBar()
 	{
+		System.out.println("in getNavigationBar page");
 		return driver.findElement(NavBar);
 	}
 	public int getPopUpSize()
